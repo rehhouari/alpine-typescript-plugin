@@ -1,16 +1,16 @@
 {
-    "name": "alpine-plugin-template",
-    "description": "A simple template for Alpine.js plugins.",
+    "name": "alpine-typescript-plugin-template",
+    "description": "A simple Typescript template for Alpine.js plugins.",
     "license": "MIT",
-    "author": "Ryan Chandler <support@ryangjchandler.co.uk>",
+    "author": "Rafik El Hadi Houari",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ryangjchandler/alpine-plugin-template"
+        "url": "https://github.com/rehhouari/alpine-typescript-plugin-template"
     },
     "source": "src/index.js",
-    "main": "dist/alpine-plugin.js",
-    "umd:main": "dist/alpine-plugin.umd.js",
-    "module": "dist/alpine-plugin.module.js",
+    "main": "dist/index.js",
+    "umd:main": "dist/index.umd.js",
+    "module": "dist/index.module.js",
     "scripts": {
         "build": "microbundle",
         "watch": "microbundle watch",
