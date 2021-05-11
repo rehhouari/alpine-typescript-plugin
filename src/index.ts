@@ -1,17 +1,16 @@
+// Replace all occurences of "AlpinePlugin" with your plugin's name
 const AlpinePlugin = {
-    start() {
-
-    }
+	start() {
+		//Your plugin's code goes here.
+	}
 }
 
-const alpine =
-	window.deferLoadingAlpine || ((callback: Function) => callback());
+const alpine = window.deferLoadingAlpine || ((callback: Function) => callback());
 
 window.AlpinePlugin = AlpinePlugin;
 
 window.deferLoadingAlpine = function (callback: Function) {
 	window.AlpinePlugin.start();
-
 	alpine(callback);
 };
 
