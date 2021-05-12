@@ -1,11 +1,11 @@
 {
-    "name": "alpine-typescript-plugin-template",
-    "description": "A simple Typescript template for Alpine.js plugins.",
+    "name": "{package-name}",
+    "description": "{package-description}",
     "license": "MIT",
-    "author": "Rafik El Hadi Houari",
+    "author": "{author-name}",
     "repository": {
         "type": "git",
-        "url": "https://github.com/rehhouari/alpine-typescript-plugin-template"
+        "url": "https://github.com/{repository}"
     },
     "source": "src/index.js",
     "main": "dist/index.js",
@@ -17,7 +17,7 @@
         "test": "jest"
     },
     "dependencies": {
-        "alpinejs": "^2.6.0"
+        "alpinejs": "^2.8.0"
     },
     "devDependencies": {
         "@babel/preset-env": "^7.11.0",
