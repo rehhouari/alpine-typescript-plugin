@@ -2,12 +2,12 @@
 
 One short line about the plugin.
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/{repository}?color=%2337C8AB&label=version&sort=semver)](https://github.com/{repository}/tree/0.0.0)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/{npm-package}?color=37C8AB)](https://bundlephobia.com/result?p={npm-package}@0.0.0)
-[![Downloads from Jsdelivr Github](https://img.shields.io/jsdelivr/gh/hm/{repository}?color=%2337C8AB&logo=github&logoColor=%2337C8AB)](https://www.jsdelivr.com/package/gh/{repository})
-[![Downloads from Jsdelivr NPM](https://img.shields.io/jsdelivr/npm/hm/{npm-package}?color=%2337C8AB&&logo=npm)](https://www.jsdelivr.com/package/npm/{npm-package})
-[![npm](https://img.shields.io/npm/dm/{npm-package}?color=37C8AB&label=npm&logo=npm&logoColor=37C8AB)](https://npmjs.com/package/{npm-package})
-[![Changelog](https://img.shields.io/badge/change-log-%2337C8AB)](/CHANGELOG.md)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/{repository})](https://github.com/{repository}/tree/0.0.0)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/{npm-package})](https://bundlephobia.com/result?p={npm-package})
+[![Downloads from Jsdelivr NPM](https://img.shields.io/jsdelivr/npm/hm/{npm-package})](https://www.jsdelivr.com/package/npm/{npm-package})
+[![npm](https://img.shields.io/npm/dm/{npm-package})](https://npmjs.com/package/{npm-package})
+[![Changelog](https://img.shields.io/badge/change-log-log)](/CHANGELOG.md)
+
 ## About
 
 A short bit of information about the plugin and what it does.
