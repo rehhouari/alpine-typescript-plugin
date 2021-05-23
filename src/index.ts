@@ -1,7 +1,7 @@
 import type { Alpine } from '@leanadmin/alpine-typescript';
 
-// Replace all occurrences of "AlpineI18n" with your plugin's name
-const AlpineI18n = {
+// Replace all occurrences of "AlpinePlugin" with your plugin's name
+const AlpinePlugin = {
 	start() {
 		//Your plugin's code goes here.
 	}
@@ -9,10 +9,10 @@ const AlpineI18n = {
 
 const alpine = window.deferLoadingAlpine || ((callback: Function) => callback());
 
-window.AlpineI18n = AlpineI18n;
+window.AlpinePlugin = AlpinePlugin;
 
 window.deferLoadingAlpine = function (callback: Function) {
-	window.AlpineI18n.start();
+	window.AlpinePlugin.start();
 	alpine(callback);
 };
 
@@ -20,8 +20,8 @@ declare global {
 	interface Window {
 		Alpine: Alpine;
 		deferLoadingAlpine: any;
-		AlpineI18n: typeof AlpineI18n;
+		AlpinePlugin: typeof AlpinePlugin;
 	}
 }
 
-export default AlpineI18n;
+export default AlpinePlugin;
